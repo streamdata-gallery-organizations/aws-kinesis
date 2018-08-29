@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - AWS Kinesis",
+	"description": "This is a repository of aws kinesis APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/aws-kinesis.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://aws-kinesis.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "AWS Kinesis",
+			"x-api-slug": "aws-kinesis",
+			"description": "Amazon Kinesis Firehose is the easiest way to load streaming data into AWS. It can capture, transform, and load streaming data into Amazon Kinesis Analytics, Amazon S3, Amazon Redshift, and Amazon Elasticsearch Service, enabling near real-time analytics with existing business intelligence tools and dashboards you are already using today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisFirehose.png",
+			"humanURL": "https://aws.amazon.com/kinesis/",
+			"baseURL": ":///",
+			"tags": "AWS Kinesis",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-kinesis/master/_listings/aws-kinesis/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "AWS Kinesis",
+	"include": [
+		{
+			"name": "AWS Kinesis",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-kinesis/master/_listings/aws-kinesis/apis.yaml"
+		}
+	]
+}
